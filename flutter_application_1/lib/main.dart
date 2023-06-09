@@ -16,10 +16,10 @@ class myApp extends StatelessWidget {
       themeMode: ThemeMode.light,
       theme: ThemeData(primarySwatch: Colors.amber),
       darkTheme: ThemeData(brightness: Brightness.dark),
-      initialRoute: "/Home",
+      // initialRoute: "/Home",
       routes: {
-        "/": (context) => Homepage(),
-        "/Home": (context) => Loginpage(),
+        "/": (context) => Loginpage(),
+        "/Home": (context) => Homepage(),
         "/login": (context) => Loginpage()
       },
     );
