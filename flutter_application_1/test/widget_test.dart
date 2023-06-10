@@ -20,7 +20,6 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     //  ignore: prefer_typing_uninitialized_variables
-    var colors;
     return Scaffold(
       appBar: AppBar(
         title: Text("AWESOME APP"),

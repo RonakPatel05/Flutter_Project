@@ -3,7 +3,7 @@ import 'package:flutter_application_1/main.dart';
 
 class Homepage extends StatelessWidget {
   final int day = 30;
-  final String name = "codepur";
+  final String name = "Ronak Patel";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
