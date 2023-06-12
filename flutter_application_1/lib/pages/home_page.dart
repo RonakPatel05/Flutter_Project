@@ -9,6 +9,7 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blue,
         title: Text("catalog app"),
       ),
       body: Center(
@@ -16,7 +17,7 @@ class Homepage extends StatelessWidget {
           child: Text("welcome to $day of flutter by $name"),
         ),
       ),
-      drawer:mydrawer(),
+      drawer: mydrawer(),
     );
   }
 }
